@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=583
+
+This script contains two simple functions to comment and uncomment visually selected blocks of C and C++ code using "#ifdef 0...#endif".   If'd out sections are commented with the author's name and a timestamp.
+
+The default mappings are .c to comment and .C to uncomment.
+
+e.x.
+#if 0 /* author Tue Mar 25 19:08:09 EST 2003 */
+...
+#endif /* author Tue Mar 25 19:08:09 EST 2003 */
+
